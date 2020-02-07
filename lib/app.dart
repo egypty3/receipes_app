@@ -4,6 +4,7 @@ import 'package:receipes_app/ui/screens/home.dart';
 import 'package:receipes_app/ui/theme.dart';
 
 class RecipesApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

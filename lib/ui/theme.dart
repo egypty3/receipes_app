@@ -4,14 +4,14 @@ final ThemeData base = ThemeData.light();
 
 TextTheme _buildTextTheme(TextTheme base){
   return base.copyWith(
-      headline: base.headline5.copyWith(
+      headline: base.headline.copyWith(
         fontFamily: 'Merriweather',
         fontSize: 40.0,
         color: const Color((0xFF807a6b)),
       ),
     // New code:
     // Used for the recipes' title:
-    title: base.headline6.copyWith(
+    title: base.title.copyWith(
       fontFamily: 'Merriweather',
       fontSize: 15.0,
       color: const Color(0xFF807A6B),

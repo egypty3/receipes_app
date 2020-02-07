@@ -40,7 +40,7 @@ class RecipeCard extends StatelessWidget {
           children: <Widget>[
             Text(
               recipe.name,
-              style: Theme.of(context).textTheme.headline6, // New code
+              style: Theme.of(context).textTheme.title, // New code
             ),
             // Empty space:
             SizedBox(height: 10.0),
